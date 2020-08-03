@@ -8,7 +8,7 @@ comp=0;
 while(True):
     you1 = [];
     comp1 = [];
-    your = input("Enter your choice between 0 and 2:")
+    your = input("Enter your choice between 0 and 2 [0 for snake,1 for water,2 for gun]:")
     try:
         if (int(your) > 2 or int(your) < 0):
             print("Invalid choice.Try Again.")
