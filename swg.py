@@ -76,6 +76,7 @@ def game(st):
 
 swg.geometry("1100x700")
 swg.title("Snake-Water-Gun")
+swg.wm_iconbitmap("Images/clipart3028630_wks_icon.ico")
 your=0
 comp=0
 choice = ["snake","water","gun"]
